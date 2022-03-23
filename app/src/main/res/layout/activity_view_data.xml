@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rwgistratiobg"
+    tools:context=".ViewData">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Data"
+            android:textColor="#2196f3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Name:"
+            android:textColor="#2196f3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/name"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Lawrence waweru"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Weight:"
+            android:textColor="#2196f3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/weight"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="80kg"
+            android:textSize="17sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Breed:"
+            android:textColor="#2196f3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/breed"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Breed"
+            android:textSize="16sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special Instructions:"
+            android:textColor="#2196f3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="348dp"
+        android:layout_height="231dp"
+        android:layout_marginLeft="20dp"
+        android:text="Lawrence waweru"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:text="Log Out"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="37dp" />
+    <Button
+        android:id="@+id/newpet"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Add Pet"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="37dp" />
+
+
+</LinearLayout>

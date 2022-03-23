@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pet Grommer</string>
+    <string name="welcome">Welcome</string>
+    <string name="add">Click on the ADD sign to add a new Pet</string>
+</resources>
